@@ -4,16 +4,26 @@
 body {
   margin: 0;
   font-family: Verdana, sans-serif;
-  color: #333;
   font-size: 16px;
   line-height: 1.8em;
+  color: #333;
 }
 main {
   max-width: 900px;
   margin: 0 auto;
 }
 
+header {
+  padding-bottom: 12px;
+  margin-bottom: -4px;
+  /*border-bottom: 4px solid #5086ac;*/
+  color: white;
+  background-color: #5086ac;
+}
+
 h1 {
+  padding-left: 4px;
+  padding-top: 4px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 32px;
 }
@@ -21,21 +31,24 @@ h1 {
 /*  Photo  */
 
 .photo {
+  padding-right: 8px;
   float: right;
-  padding-right: 16px;
 }
 
 .photo img {
-  width: 240px;
+  border-left: 8px solid #5086ac;
+  border-bottom: 4px solid #5086ac;
+  width: 256px;
   height: auto;
+  /* I like it better flipped horizontally */
   transform: scaleX(-1);
 }
 
 /*  /Photo  */
 
 section {
-  border-bottom: 4px solid #5086ac;
   padding-bottom: 12px;
+  border-bottom: 4px solid #5086ac;
 }
 
 h2 {
@@ -44,8 +57,8 @@ h2 {
 }
 
 .important {
-  border-left: 16px solid #ac7650;
   padding-left: 8px;
+  border-left: 16px solid #ac7650;
   font-size: 20px;
   font-weight: bolder;
 }
@@ -61,8 +74,8 @@ a {
 }
 
 a:hover {
-  color: #ac7650;
   font-weight: bolder;
+  color: #ac7650;
 }
 
 /*  /a  */
@@ -78,4 +91,13 @@ pre {
   max-width: 900px;
   border-bottom: 4px solid #999;
   background-color: #eee;
+}
+
+footer {
+  margin: 0 auto;
+  padding-top: 64px;
+  max-width: 900px;
+  text-align: right;
+  font-style: italic;
+  color: black;
 }

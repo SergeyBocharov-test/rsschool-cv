@@ -1,0 +1,81 @@
+/*  css/style.css  */
+/*  Note to myself[keep this order] { Positioning; Box-model; Typography; Visual; Misc;}  */
+
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.8em;
+}
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 32px;
+}
+
+/*  Photo  */
+
+.photo {
+  float: right;
+  padding-right: 16px;
+}
+
+.photo img {
+  width: 240px;
+  height: auto;
+  transform: scaleX(-1);
+}
+
+/*  /Photo  */
+
+section {
+  border-bottom: 4px solid #5086ac;
+  padding-bottom: 12px;
+}
+
+h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24px;
+}
+
+.important {
+  border-left: 16px solid #ac7650;
+  padding-left: 8px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+p {
+  padding-left: 16px;
+}
+
+/*  a  */
+
+a {
+  color:#50aca4;
+}
+
+a:hover {
+  color: #ac7650;
+  font-weight: bolder;
+}
+
+/*  /a  */
+
+mark {
+  background-color:#f6cbad;
+}
+
+/*  Code preview  */
+
+pre {
+  margin: 0;
+  max-width: 900px;
+  border-bottom: 4px solid #999;
+  background-color: #eee;
+}

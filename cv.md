@@ -6,7 +6,7 @@
 
 ## Contact and other information
 
-* Mobile: **+7-906-710-46-60**
+* Mobile: *unavailable*
 * Email: <work.sergey.bocharov@ya.ru>
 * Discord: *Djeeshka#6034*
 * Address: Moscow, Russia
